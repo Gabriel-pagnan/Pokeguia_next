@@ -1,0 +1,123 @@
+.card{
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: #f1efef8f;
+    border: 1px solid #f7f4f471;
+    border-radius: 10px;
+    box-shadow: 10px 12px 15px -3px rgba(0, 0, 0, 0.473);
+    margin-top: 15px;
+    transition: all .3s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.card p{
+    width: 100%;
+    text-align: left;
+}
+.card h4{
+    font-weight: normal;
+}
+
+.card a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f30f0f;
+}
+
+.background{
+    border: 1px solid #000;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+/*cores abilidades*/
+.steel {
+	background-color: #ab55f1de;
+}
+
+.fire {
+	background-color: #f05121c0;
+}
+
+.grass {
+	background-color: #3fbd04c4;
+}
+
+.electric {
+	background-color: #f1cc12ce;
+}
+
+.water{
+    background: #2121f0bd;
+}
+.ice {
+	background-color: #32b1ebb0;
+}
+
+.ground {
+	background-color: #72502db2;
+}
+
+.rock {
+	background-color: #61615f;
+}
+
+.fairy {
+	background-color: #c961dbbe;
+}
+
+.poison {
+	background-color: #2a5733c4;
+}
+
+.bug {
+	background-color: #186428c5;
+}
+
+.dragon {
+	background-color: #e92222dc;
+}
+
+.psychic {
+	background-color: #f6ff00c0;
+}
+
+.flying {
+	background-color: #2bf5f5cb;
+}
+
+.fighting {
+	background-color: #775001bb;
+}
+
+.normal {
+	background-color: #9e9c9c;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.ghost{
+    background: #e98282de;
+}

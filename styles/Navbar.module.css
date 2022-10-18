@@ -1,0 +1,76 @@
+.navbar{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 20px 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    border-bottom: .5px solid rgba(121, 119, 119, 0.425);
+    box-shadow: 0px 11px 12px -3px rgb(184, 182, 182);
+    animation: background 13s infinite alternate;
+}
+.exploration{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    background-image: url('/img/ex.svg');
+    background-size: cover;
+    background-position: center;
+    animation: point 2s .3s infinite alternate ease-in-out;
+}
+.exploration_p{
+    position: absolute;
+    left: 42px;
+    top: 33%;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+.navbar span {
+    color: #fff;
+    font-weight: normal;
+}
+.navbar h1{
+    font-size: 25px;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap: 10px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    margin-right: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hearder_img{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+}
+
+@keyframes point {
+    to{
+        transform: translateY(50px);
+    }
+    from{
+        transform: translateY(0);
+    }
+}

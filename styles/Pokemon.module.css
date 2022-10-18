@@ -1,0 +1,205 @@
+/* container central */
+.container{
+    width: 100%;
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container_img{
+    position: relative;
+}
+/* container esquerda */
+.types_container{
+    display: flex;
+    align-items: center;    
+}
+.types_container span{
+    text-align: center;
+    padding: 3px 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: none;
+    color: #1b1b1b;
+    font-size: 18px;
+}
+.id{
+    display: flex;
+    font-size: 22px;
+}
+
+.container_status{
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.container_status p{
+    margin-left: 15px;
+    color: #555353;
+}
+.title{
+    width: auto;
+    padding: 2px 15px;
+    border-radius: 3px;
+    color: #555353;
+    text-align: center;
+    font-size: 35px;
+    margin: 15px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+/* container direita */
+.container_data{
+    display: flex;
+    flex-direction: column;  
+}
+.container_data span{
+    margin: 15px 0 0 15px;
+    width: 250px;
+    font-size: 18px;
+    padding: 5px 0 5px 10px;
+    color: #555353;
+    background: linear-gradient(to right, #5554544f 30%,#fff 50%);
+    border-radius: 3px;
+}
+
+.container_stats li{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 15px;
+    list-style: none;
+    font-size: 18px;
+    padding: 5px 0 5px 10px;
+    color: #1b1b1b;
+    border-radius: 3px;
+}
+.container_stats p{
+    margin-right: 15px;
+    
+}
+.btn_container{
+    width: 100%;
+}
+.btn{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    border-radius: 30px;
+    border-style: none;
+    background: #fff;
+    font-size: 16px;
+    color: #2c38e0;
+    cursor: pointer;
+    transition: all 2ms ease-in-out;
+}
+
+.nav_container{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_container span {
+    color: #fff;
+    font-weight: normal;
+}
+.nav_container h1{
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+
+.footer{
+    background: #2c38e0;    
+    padding: 15px;
+    text-align: center;
+    color: #000;
+    letter-spacing: 3px;
+}
+.footer span{
+    color: #fff;
+}
+
+/*cores abilidades*/
+.steel {
+	background-color: #ab55f1bb;
+}
+
+.fire {
+	background-color: #f05121de;
+}
+
+.grass {
+	background-color: #3fbd04ab;
+}
+
+.electric {
+	background-color: #f1cc12c9;
+}
+
+.water{
+    background: #2121f0ad;
+}
+.ice {
+	background-color: #32b1ebd2;
+}
+
+.ground {
+	background-color: #72502d;
+}
+
+.rock {
+	background-color: #61615f;
+}
+
+.fairy {
+	background-color: #c961db;
+}
+
+.poison {
+	background-color: #2a5733d0;
+}
+
+.bug {
+	background-color: #125821c5;
+}
+
+.dragon {
+	background-color: #e92222cc;
+}
+
+.psychic {
+	background-color: #f6ff00c0;
+}
+
+.flying {
+	background-color: #2bf5f5e1;
+}
+
+.fighting {
+	background-color: #775001e1;
+}
+
+.normal {
+	background-color: #9e9c9c;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.ghost{
+    background: #e98282;
+}
